@@ -1,0 +1,60 @@
+#ticket-view {
+    display: block;
+    height: 100%;
+    flex-direction: column;
+}
+
+:host {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+#field-layout {
+    margin-top: 20px;
+
+}
+
+#ticket-view  #field-layout,
+#ticket-view  #wrapper {
+    max-width: 80%;
+    align-self: center !important;
+}
+
+#ticket-view #wrapper {
+    flex-grow: 1;
+}
+
+.ticket-number {
+    text-align: right;
+}
+
+.cell-ticket {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cell-ticket h3{
+    margin: 0px;
+    height: 20px;
+}
+
+.cell-ticket h5{
+    margin-top: 30px;
+}
+
+.cell-ticket .note {
+    white-space: normal;
+    max-width: 700px;
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.cell-ticket .status {
+    color: var(--lumo-success-color);
+    background-color: var(--lumo-success-color-10pct);
+    border-radius: 4px;
+    padding: 5px;
+    height: 20px;
+    width: max-content !important;
+}

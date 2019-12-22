@@ -1,0 +1,19 @@
+#ticket-form {
+    display: block;
+    width: 600px !important;
+    height: 400px !important;
+    flex-direction: column;
+}
+
+:host {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+
+#button-layout {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+}

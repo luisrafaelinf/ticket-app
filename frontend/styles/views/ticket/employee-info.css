@@ -1,0 +1,28 @@
+#employee-info {
+    display: block;
+    width: 600px !important;
+    height: 400px !important;
+    flex-direction: column;
+}
+
+:host {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+
+#button-layout {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+}
+
+h4 {
+    margin-top: 0px;
+}
+
+.editor-employee .chip {
+    color: var(--lumo-success-color) !important;
+    background-color: #1bc5621f !important;
+}

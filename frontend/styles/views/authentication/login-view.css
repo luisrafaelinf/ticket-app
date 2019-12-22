@@ -1,0 +1,37 @@
+#login-view {
+    display: block !important;
+    height: 100%;
+    flex-direction: column;
+    background-color: var(--lumo-primary-text-color);
+}
+
+:host {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.login-form {
+    margin: auto;
+    padding: 50px;
+    border-radius: 4px;
+    background-color: var(--lumo-base-color);
+    display: block;
+}
+
+.login-info h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.login-info {
+    max-width: 20%;
+    height: 100%;
+    color: white;
+    font-size: 25px;
+    background-color: var(--lumo-shade-30pct);
+    float: left;
+    position: relative;
+    padding: 20px;
+    padding-top: 10%;
+}

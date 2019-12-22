@@ -1,0 +1,28 @@
+#report-view {
+    display: block;
+    height: 100%;
+    flex-direction: column;
+}
+
+:host {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+#field-layout {
+    margin-top: 20px;
+}
+
+#report-view #wrapper {
+    flex-grow: 1;
+}
+
+.gridTable__column {
+    width: 50px;
+    flex-grow: 0;
+}
+
+.ticket-number {
+    text-align: right;
+}

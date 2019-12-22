@@ -1,0 +1,71 @@
+#employee-view {
+    display: block;
+    height: 100%;
+    flex-direction: column;
+}
+
+:host {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+#editor-layout {
+    padding: var(--lumo-space-l);
+    width: 500px;
+}
+
+#button-layout {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+}
+
+#employee-view #wrapper {
+    flex-grow: 1;
+    margin-top: 10px;
+    
+}
+
+
+.splitLayout__gridTable {
+    flex-grow: 1;
+    width: 100%;
+}
+
+.splitLayout {
+    width: 100%;
+    height: 100%;
+}
+
+.gridTable__column {
+    width: 50px;
+    flex-grow: 0;
+}
+
+.active {
+    color: var(--lumo-success-color);
+    background-color: var(--lumo-success-color-10pct);
+}
+
+.inactive {
+    color: var(--lumo-error-color);
+    background-color: var(--lumo-error-color-10pct);
+}
+
+#employee-view .cell-employee {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#employee-view .cell-employee h3{
+    margin: 0px;
+    height: 20px;
+}
+
+#employee-view .cell-employee .status {
+    border-radius: 4px;
+    padding: 5px;
+    height: 20px;
+    width: max-content !important;
+}
