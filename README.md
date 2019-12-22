@@ -1,6 +1,6 @@
 # ticket-app
 
-To build and run the project you need to have Java 8+, Maven 3.6+ and Nodejs installed in your system. After the build, a `target` directory is generated for you with a jar file named **ticket.jar** in it. Run the jar with `java -jar ticket.jar`, then go to your 
+To build and run the project you need to have Java 8+, Maven 3.6+ and Nodejs 12+ installed in your system. After the build, a `target` directory is generated for you with a jar file named **ticket.jar** in it. Run the jar with `java -jar ticket.jar`, then go to your 
 browser and write `localhost:8080`
 
 Additionally, some initial data are provided in the app when run the program.
