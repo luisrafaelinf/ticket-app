@@ -13,7 +13,7 @@ git clone https://github.com/luisrafaelinf/ticket-app.git
 cd ticket-app
 
 # Compile the project.
-mvn clean package
+mvn clean package -Pproduction
 
 # Optionally, you can run the project whitout compile it.
 mvn spring-boot:run
